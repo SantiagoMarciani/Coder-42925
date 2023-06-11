@@ -1,0 +1,19 @@
+
+h1 {
+    color:brown;
+}
+
+section {
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+section article p {
+    line-height: 1.5;
+}
+
+.unidades {
+    vertical-align: top;
+    padding: 50px 30px 20px 60px;
+}
