@@ -17,16 +17,3 @@ section article p {
     vertical-align: top;
     padding: 50px 30px 20px 60px;
 }
-
-ul{
-    list-style-type: none;
-}
-
-ul li{
-    display: inline-block;
-    color: black;
-    font-weight: bolder;
-    font-size: 2rem;
-    margin-bottom: 60px;
-    padding: 0 20px;
-}
