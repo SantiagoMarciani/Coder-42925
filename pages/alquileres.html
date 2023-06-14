@@ -11,12 +11,16 @@
 	<meta content="Santiago Marciani" name="author" />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/estilos.css">
-    
+
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -25,70 +29,78 @@
 
     <nav>
         <ul>
-            <li> <a href="../index.html"><h1>Home</h1> </a> </li>
-            <li> <a href="videos.html"> <h1>Videos</h1> </a> </li>
-            <li> <a href="alquileres.html"> <h1>Busca tu alquiler</h1> </a> </li>
-            <li> <a href="promociones.html"> <h1>Promociones</h1> </a> </li>
-            <li> <a href="contacto.html"> <h1>Contacto</h1> </a>  </li>
+            <li> <a href="../index.html"> Home </a> </li>
+            <li> <a href="galeria.html"> Galeria </a> </li>
+            <li> <a href="alquileres.html"> Busca tu alquiler </a> </li>
+            <li> <a href="promociones.html"> Promociones </a> </li>
+            <li> <a href="contacto.html"> Contacto </a>  </li>
         </ul>
     </nav>
 </header>
 
 <body>
-    <table width="100%">
-        <tr>
-            <td class="unidades" width="33%">
-                <h1>Monoambientes</h1>
-                <ul>
-                    <li>Piccolino</li>
-                    <li>Piccolino bambino</li>
-                </ul>
-            </td>
-            <td class="unidades" width="33%">
-                <h1>Departamentos</h1>
-                <ul>
-                    <li>Bellavista</li>
-                    <li>Affascinante</li>
-                    <li>Specchio</li>
-                    <li>Di Legno</li>
-                </ul>
-            </td>
-            <td id="unidades" width="33%">
-                <h1>Departamentos</h1>
-                <p>Sin unidades disponibles</p>                
-            </td>
-        </tr>
-    </table>
+    <div class="GridContainer"> 
+        <div class="GridIzq">
+            <h1>Monoambientes</h1>
+            <hr>
+            <ul>
+                <li>Piccolino</li>
+                <li>Piccolino bambino</li>
+            </ul>
+        </div>
+        <div class="GridCen">
+            <h1>Departamentos</h1>
+            <hr>
+            <ul>
+                <li>Bellavista</li>
+                <li>Affascinante</li>
+                <li>Specchio</li>
+                <li>Di Legno</li>
+            </ul>
+        </div>
+        <div class="GridDer">
+            <h1>Casas</h1>
+            <hr>
+            <p>Sin unidades disponibles</p>       
+        </div>
+    </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24039.760134730837!2d-71.29654405404052!3d-41.13518049669744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1684273001813!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24039.760134730837!2d-71.29654405404052!3d-41.13518049669744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1684273001813!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </iframe>
+
+    <script src="../js/bootstrap.min.js"></script>
+
 </body>
 
 <footer>
-    <hr>
-    
-    <table width="100%">
-        <tr>
-            <td width="25%">
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
                 <h3>Sobre nosotros</h3>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis cupiditate debitis a temporibus? Non delectus quibusdam autem rem architecto magni quam atque nulla. Vel voluptates inventore optio pariatur minus voluptas.</p>
-            </td>
-            <td width="25%">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis cupiditate debitis a temporibus? Non delectus quibusdam autem rem architecto magni quam atque nulla. Vel voluptates inventore optio pariatur minus voluptas.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6">
                 <h3>Horarios</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis cupiditate debitis a temporibus? Non delectus quibusdam autem rem architecto magni quam atque nulla. Vel voluptates inventore optio pariatur minus voluptas.</p>
-             </td>
-             <td width="25%">
+            </div>
+            <div class="col-lg-3 col-sm-6">
                 <h3>Mapa del sitio</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis cupiditate debitis a temporibus? Non delectus quibusdam autem rem architecto magni quam atque nulla. Vel voluptates inventore optio pariatur minus voluptas.</p>
-             </td>
-             <td width="25%">
+            </div>
+            <div class="col-lg-3 col-sm-6">
                 <h3>Galeria fotografica</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis cupiditate debitis a temporibus? Non delectus quibusdam autem rem architecto magni quam atque nulla. Vel voluptates inventore optio pariatur minus voluptas.</p>
-             </td>
-           </tr>
-    </table>
-    <p> <a href="https://app.moqups.com/fs9Eu5XY4QyPClic0QuELyD7WDLOTmSP/view/page/adfb9a56f"> Presentación Moqups proyecto</a> </p>
+            </div>
+        </div>
+        <hr>
+        <p> <a href="https://app.moqups.com/fs9Eu5XY4QyPClic0QuELyD7WDLOTmSP/view/page/adfb9a56f"> Presentación Moqups proyecto</a> </p>
+        <br><br>
+    </div>
 
+    <div class="wsp">
+        <img src="../images/icons/wsp.png" alt="">
+    </div>
 </footer>
 
 
