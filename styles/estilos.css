@@ -44,6 +44,7 @@ footer {
 }
 
 .nav {
+    z-index: 1;
     position: sticky;
     top: 0;
 }
@@ -67,10 +68,8 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex-flow: column wrap; */
 
     justify-content: center;
-    /* flex-start | center | flex-end | space-between | space-around | space-evenly */
 }
 
 .ContainerFlex img{
