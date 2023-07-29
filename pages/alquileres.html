@@ -13,8 +13,9 @@
 
     <!-- CSS -->
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e2b64dd54.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
     <link rel="stylesheet" href="../styles/estilos.css">
 
     <!-- Google Fonts -->
@@ -49,35 +50,52 @@
             </nav>   
         </div>
     </header>
-    
-    <div class="GridContainer"> 
-        <div class="GridIzq">
-            <h1>Monoambientes</h1>
-            <hr>
-            <ul>
-                <li>Piccolino</li>
-                <li>Piccolino bambino</li>
-            </ul>
-        </div>
-        <div class="GridCen">
-            <h1>Departamentos</h1>
-            <hr>
-            <ul>
-                <li>Bellavista</li>
-                <li>Affascinante</li>
-                <li>Specchio</li>
-                <li>Di Legno</li>
-            </ul>
-        </div>
-        <div class="GridDer">
-            <h1>Casas</h1>
-            <hr>
-            <p>Sin unidades disponibles</p>       
-        </div>
-    </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24039.760134730837!2d-71.29654405404052!3d-41.13518049669744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1684273001813!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </iframe>
+    <main>
+        <div class="container">
+            <div class="Titulos"><h1>Busca tu alquiler</h1> Contamos con diferentes tipos de unidades, adaptadas a cada necesitad</div>
+            <div class="GridContainer"> 
+                <div class="GridIzq">
+                    <h2>Monoambientes</h2>
+                    <hr>
+                    <div class="Unidades">
+                        <ul>
+                            <li>Piccolino <br> <a href="piccolino.html" type="button" class="btn btn-propio btn-sm"><i class="fa-regular fa-images"></i> &nbsp mas info</a> </li>
+                            <li>Piccolino bambino <br> <a href="bambino.html" type="button" class="btn btn-propio btn-sm"><i class="fa-regular fa-images"></i> &nbsp mas info</a> </li>
+                        </ul>    
+                    </div>
+
+                    <img src="../images/esquema-mono.jpg" alt="Esquema monoambiente" width="200px">
+                </div>
+                <div class="GridCen">
+                    <h2>Departamentos</h2>
+                    <hr>
+                    <div class="Unidades">
+                        <ul>
+                            <li>Piu Bella Vista <br> <a href="piu.html" type="button" class="btn btn-propio btn-sm"><i class="fa-regular fa-images"></i> &nbsp mas info</a> </li>
+                            <li>Affascinante <br> <button href="#" type="button" class="btn btn-propio btn-sm" disabled><i class="fa-regular fa-images"></i> &nbsp mas info</button> </li>
+                            <li>Specchio <br> <a href="specchio.html" type="button" class="btn btn-propio btn-sm"><i class="fa-regular fa-images"></i> &nbsp mas info</a> </li>
+                            <li>Di Legno <br> <a href="dilegno.html" type="button" class="btn btn-propio btn-sm"><i class="fa-regular fa-images"></i> &nbsp mas info</a> </li>
+                        </ul>
+                    </div>
+                    <img src="../images/esquema-depto.jpg" alt="Esquema monoambiente" width="200px">
+                </div>
+                <div class="GridDer">
+                    <h2>Casas</h2>
+                    <hr>
+                    <div class="Unidades">
+                        <p>Sin unidades disponibles</p>       
+                    </div>
+                    <img src="../images/esquema-casa.jpg" alt="Esquema monoambiente" width="200px">
+                </div>
+            </div>
+        </div>
+
+        <section aria-label="Mapa de Bariloche">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24039.760134730837!2d-71.29654405404052!3d-41.13518049669744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1684273001813!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </iframe>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
@@ -117,8 +135,10 @@
         </div>
     </footer>
     
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../scripts/js/bootstrap.min.js"></script>
 
 </body>
 
 </html>
+
+
